@@ -10,7 +10,8 @@ def check_isogram(string):
 
 def check_palindrome(string):
     if string.lower() == string.lower()[::-1]:
-#
+# string slicer function --> [start: stop: step function (after which it will slice the string)}]
+# [::-1] --> this will consider full string and -1 will reverse the string
         return "String is a palindrome"
     else:
         return "string is not a palindrome"
